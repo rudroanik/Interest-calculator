@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:layout_weight="1"
+            android:text="Principal Amount:"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_pricipal_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Put amount"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Interest Rate:"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_interset_rate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Put Percntage"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Time Period:"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/edit_time_period"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Put Year"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CALCULATE"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Interest Amount:"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_interest_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="show amount"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Total Amount:"
+
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_total_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="show amount"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
